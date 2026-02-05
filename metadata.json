@@ -1,0 +1,7 @@
+{
+  "name": "Uncovering public emotions patterns in twitter data using ai model",
+  "description": "A high-fidelity Affective Intelligence platform featuring dimensional emotion mapping, XAI interpretability, and multi-modal safety moderation.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
