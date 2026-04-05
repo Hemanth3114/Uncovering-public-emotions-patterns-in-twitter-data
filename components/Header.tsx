@@ -47,13 +47,15 @@ const Header: React.FC<HeaderProps> = ({ theme, onToggleTheme }) => {
             </div>
           </div>
 
-          <div className="flex flex-col">
+           <div className="flex flex-col min-w-0 flex-1">
             <h1 className="text-3xl font-black text-slate-900 dark:text-white tracking-tighter leading-none transition-colors">
               Affecta
             </h1>
-            <p className="text-xs md:text-sm font-medium text-slate-500 dark:text-[#71767b] mt-1.5 max-w-md transition-colors">
-              Uncovering public emotions patterns in twitter data using ai model
-            </p>
+            <div className="overflow-hidden whitespace-nowrap mt-1.5 max-w-[200px] md:max-w-xl lg:max-w-2xl">
+              <p className="text-[10px] md:text-xs font-bold text-[#1d9bf0] dark:text-[#1d9bf0] uppercase tracking-widest animate-[marquee_20s_linear_infinite] inline-block">
+                AN EMBEDDED MULTIMODAL ARTIFICIAL INTELLIGENCE BASED SYSTEM FOR REAL-TIME PUBLIC EMOTION ANALYSIS USING SOCIAL MEDIA DATA STREAMING, EDGE COMPUTING, AND ADAPTIVE EMOTION FUSION
+              </p>
+            </div>
           </div>
         </div>
         
